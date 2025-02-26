@@ -1,0 +1,13 @@
+p{
+    font-size: 46px;
+    font-weight: bold;
+    color: blue;
+}
+button{
+    font-weight: bold;
+}
+
+button:hover{
+    color: green;
+    transition: 2ms;
+}
