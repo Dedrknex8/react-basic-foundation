@@ -12,3 +12,5 @@ function ProductItem({singleProduct, key}){
 }
 
 export default ProductItem;
+
+//Done FINAL  changes
