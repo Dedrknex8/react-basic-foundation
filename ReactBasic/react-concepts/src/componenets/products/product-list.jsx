@@ -9,6 +9,7 @@ function ProductList({dummyProjectData}){
             <ProductItem />
             {
                 dummyProjectData.map((items,index)=>(
+                    //passing data from list to item
                     <ProductItem singleProduct = {items} key={index}/>
                 ))
             }
@@ -17,3 +18,5 @@ function ProductList({dummyProjectData}){
 }
 
 export default ProductList;
+
+//Upadated notes
